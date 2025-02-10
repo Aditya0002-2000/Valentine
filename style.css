@@ -37,12 +37,16 @@ button {
 #yesButton {
     background-color: #ff4d4d;
     color: white;
+    position: relative;
+    z-index: 2; /* Ensures it appears above "No" */
 }
+
 
 #noButton {
     background-color: #999;
     color: white;
     position: absolute;
+    z-index: 1;
 }
 
 #responseMessage {
