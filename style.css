@@ -4,7 +4,7 @@ body {
     background-color: #ffe6e6;
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Prevents "No" from disappearing off-screen */
+    overflow: hidden; /* Ensures "No" button stays within screen */
 }
 
 .container {
@@ -47,6 +47,16 @@ button {
 #noButton {
     background-color: #999;
     color: white;
-    position: relative; /* Fixes absolute disappearing issue */
+    position: relative;
     z-index: 1;
+}
+
+#responseMessage {
+    font-size: 1.5em;
+    color: #ff4d4d;
+    margin-top: 20px;
+    padding: 10px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
