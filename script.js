@@ -1,10 +1,10 @@
 document.getElementById("yesButton").addEventListener("click", function() {
-    document.getElementById("responseMessage").innerHTML = "Yay! 💖 Can't wait to celebrate with you!";
+    document.getElementById("responseMessage").innerText = "❤️ Can't wait to have the time of our lives with you! My LOVE";
 });
 
 document.getElementById("noButton").addEventListener("mouseover", function() {
-    let x = Math.random() * window.innerWidth - 100;
-    let y = Math.random() * window.innerHeight - 50;
-    this.style.left = `${x}px`;
-    this.style.top = `${y}px`;
+    let randomX = Math.floor(Math.random() * (window.innerWidth - 100));
+    let randomY = Math.floor(Math.random() * (window.innerHeight - 100));
+    this.style.left = `${randomX}px`;
+    this.style.top = `${randomY}px`;
 });
