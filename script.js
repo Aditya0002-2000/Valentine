@@ -1,5 +1,5 @@
 document.getElementById("yesButton").addEventListener("click", function() {
-    document.getElementById("responseMessage").innerText = "Yay! ❤️ Can't wait to spend Valentine's Day with you!";
+    document.getElementById("responseMessage").innerText = "❤️ Can't wait to have a wonderful time with you my LOVE. P.S. You WIll be BITTEN";
 });
 
 document.getElementById("noButton").addEventListener("mouseover", function() {
